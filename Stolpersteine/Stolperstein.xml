@@ -4,14 +4,14 @@ description="Vorlagen für Stolpersteine"
 version="2013-11-11" 
 de.link="http://wiki.openstreetmap.org/wiki/Stolpersteine" >
 
-  <item name="Stolpersteine" type="node">
-    <link href="http://wiki.openstreetmap.org/wiki/Stolpersteine" />
-    <label text="Stolpersteine" />
-    <key key="historic" value="memorial" /> 
-	<key key="memorial:type" value="stolperstein" />
-    <key key="memorial:addr" default="" delete_if_empty="true" /> 
-	<key key="memorial:text" default="" delete_if_empty="true" />
-    <text key="name" text="Name" />
-	<text key="ref" text="Stein Nr" default="" delete_if_empty="true" />
-   </item>
+	<item name="Stolpersteine" type="node">
+		<link href="http://wiki.openstreetmap.org/wiki/Stolpersteine" />
+		<label text="Stolpersteine" />
+		<key key="historic" value="memorial" />
+		<key key="memorial:type" value="stolperstein" />
+		<text key="memorial:addr" default="" delete_if_empty="true" /> 
+		<text key="memorial:text" default="" delete_if_empty="true" />
+		<text key="name" text="Name" />
+		<text key="ref" text="Stein Nr." default="" delete_if_empty="true" />
+	</item>
 </presets>
